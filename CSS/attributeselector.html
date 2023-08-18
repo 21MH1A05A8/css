@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		/*if  we use only type it will apply to all type attributes ,if we same type in last then it will apply this color to  all type values eventhough we mention text,number. so if we want to apply different color to text,password and remaining  all are same we use this in first ||if we have diffirent values like type have backgroud color and type-text have color then no problem we can use it in any place here we have color for all type,type text ....that's why we use it in front [in CSS we have this type of comments]*/
+		input[type]{              
+			color:yellowgreen;
+		}
+		input[type="text"]{ /*if we specially mention that text then it will apply to that text only */
+			color:yellowgreen;
+		}
+		input[type="number"]
+		{
+			color:hotpink;
+		}
+		a[href]{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+<input type="text">
+<input type="number">
+<input type="password">
+<a href="">click here</a>
+</body>
+</html>

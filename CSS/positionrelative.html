@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.a{
+			height: 200px;
+			width:200px;
+			background-color: lightpink;
+			float: left;
+		}
+		.b{
+			height: 200px;
+			width:200px;
+			background-color: lightblue;
+				float: left;
+				position: relative;
+				top:50px;
+				left:50px;
+		}
+		.c{
+			height: 200px;
+			width:200px;
+			background-color: yellow;
+				float: left;
+				position: absolute;/*it is move according to the body because it treated the body as parent*/
+				top:50px;
+				left:50px;
+		}
+		.d{
+			height: 200px;
+			width:200px;
+			background-color:grey;
+				float: left;
+		}
+	</style>
+</head>
+<body>
+<div class="a">STATIC</div>
+<div class="b">RELATIVE</div>
+<div class="c">ABSOLUTE</div>
+<div class="d">FIXED</div>
+
+</body>
+</html>
+<!--relative :it is fixed in it's position it moves in that layout only if we use top bottom left right it overrides the other elements also-->
+<!--absolute:it is move according to tha parent position if we want move according to parent first set parent as relative and child as absolute-->
+<!--fixed:even if we scroll if is fixed to its position-->

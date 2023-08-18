@@ -1,0 +1,10 @@
+.one{
+	background-image:url('travelagency.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.two{
+	background-image:url('travel.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
